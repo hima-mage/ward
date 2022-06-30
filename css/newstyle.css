@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+
+body {
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 0em;
+  align-content: center;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+*{
+  font-family: "Cairo", sans-serif; 
+}
+.page-wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em auto;
+  align-items: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding: 0;
+
+}
+
+.canvas {
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  align-items: center;
+  margin: 30px auto;
+}
+
+h1 {
+  margin-top: 7%;
+  margin-bottom: 15px;
+  color: #6a5b44;
+}
+
+.header-up {
+  height: 500px;
+  width: 100%;
+  background-size: contain;
+  background-position: center top;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+}
+
+.controls {
+  margin-top: 40px;
+  margin: 2em auto;
+}
+
+.controls__input {
+  display: inline-block;
+  background: none;
+  border: 1px solid #236b84;
+  outline: #236b84;
+  border-color: #236b84;
+  font-size: 1.3em;
+   text-align: center;
+  color: #6a5b44;
+  width: 350px;
+  background-color: #fff;
+}
+.controls__btn {
+  background: #236b84;
+  color: #000;
+  border: 1px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.controls__btn a{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+padding: 4px 36px ;
+
+}
+.controls__label {
+  display: inline-block;
+  font-size: 1.2em;
+  padding-top: 0.3em;
+  margin-bottom: 2em;
+  border-bottom: 2px solid #ccc;
+  color: #fff;
+  margin-bottom: 5px;
+
+  width: 350px;
+}
+
+canvas {
+  background-color: #eee;
+  transition: opacity 0.3s;
+}
+canvas.show {
+  opacity: 1;
+}
+
+.canvas-wrap {
+  margin-top: 50px;
+  position: relative;
+}
+
+#canvasID {
+  z-index: 9999;
+}
+
+canvas1 {
+  background-color: #6a5b44;
+  transition: opacity 0.3s;
+}
+canvas1.show {
+  opacity: 1;
+}
+
+.canvas-wrap1 {
+  margin-top: 50px;
+  position: relative;
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#canvasID1 {
+  z-index: 9999;
+}
+
+label {
+  background-color: #236b84;
+  color: black;
+  font-weight: bold;
+  padding: 4px;
+  text-transform: uppercase;
+  
+  font-size: xx-small;
+}
+
+a {
+  color: #5e8290;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px;
+  font-size: 25px;
+}
+
+#footer {
+  background-color: #5e8290;
+  color: #eee;
+  font-size: 8pt;
+  letter-spacing: 1px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .page-wrap {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: 0;
+
+  }
+
+  /* .header-up {
+    list-style: none;
+
+    background-color: #eee;
+    background-size: contain;
+    background-position: center top;
+    background-image: url("smallss.jpg");
+    background-repeat: no-repeat;
+
+  } */
+}
+
+@media screen and (min-width: 750px) {
+  .page-wrap {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: 0;
+
+  }
+  /* .header-up {
+    background-image: url("../images/banner.jpg");
+  } */
+}
+
+@media screen and (min-width: 1000px) {
+  /* .header-up {
+    padding: 10px 40px 16px;
+    list-style: none;
+    background-color: #eee;
+    background-size: contain;
+    background-position: center top;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+
+  } */
+}
+
+@media screen and (min-width: 1800px) {
+  .page-wrap {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding: 0;
+
+  }
+
+  /* .header-up {
+    padding: 10px 40px 16px;
+    list-style: none;
+    background-color: #eee;
+    background-size: contain;
+    background-position: center top;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+
+  } */
+}
+canvas {
+  border: 1px solid #10a9a6;
+}

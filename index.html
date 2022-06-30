@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>سادو تتمنى لكم عيد فطر مبارك  </title>
+
+    <link rel="stylesheet" href="css/newstyle.css" />
+  </head>
+
+  <body>
+    <header class="header-up"></header>
+
+    <div class="controls">
+      <!-- <input class="controls__input" type="file" id="imageLoader" name="imageLoader"/>
+    <label class="controls__label" for="name">First, choose an image.</label> -->
+      <br />
+      <label class="controls__label" for="name"> إضافة الاسم </label>
+      <br />
+
+      <input class="controls__input" id="name" type="text" value="" placeholder="اضف الاسم هنا" />
+      <br />
+      <br />
+    </div>
+
+    <div class="page-wrap">
+      <!-- //////////////////////// -->
+      <div id="canvas-wrap" class="canvas">
+        <canvas
+          style="display: block"
+          id="imageCanvas"
+          width="1000px"
+          height="1000px"
+        >
+          <span>&nbsp;</span>
+          <canvas id="canvasID"></canvas>
+        </canvas>
+
+        <br />
+        <button type="button" class="controls__btn">
+          <a
+            id="download"
+            download="eid-mobarak.jpg"
+            href="#"
+            onclick="download_img(this);"
+            >تحميل</a
+          >
+        </button>
+      </div>
+      <!-- //////////////////////// -->
+
+      <div id="canvas-wrap1" class="canvas">
+        <canvas
+          style="display: block"
+          id="imageCanvas1"
+          width="1000px"
+          height="1000px"
+        >
+          <span>&nbsp;</span>
+          <canvas id="canvasID1"></canvas>
+        </canvas>
+
+        <br />
+        <button type="button" class="controls__btn">
+          <a
+            id="download1"
+            download="eid-mobarak.jpg"
+            href="#"
+            onclick="download_img1(this);"
+            >تحميل</a
+          >
+        </button>
+      </div>
+      <!-- //////////////////////// -->
+       <!-- //////////////////////// -->
+
+    
+    </div>
+
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
+
+    <script src="js/newindex.js?version=2"></script>
+
+    <!-- <footer id="footer">
+      Copyright (c) 2019
+      <a href="https://uqu.edu.sa/icrs"
+        ><strong style="color: #555"> ICRS</strong></a
+      >
+      All Rights Reserved.
+    </footer> -->
+  </body>
+
+  <!-- Mirrored from icrs-uqu.github.io/ICRS_ECards/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Mar 2022 11:04:53 GMT -->
+</html>
